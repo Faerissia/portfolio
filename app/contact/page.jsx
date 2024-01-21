@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <h1 className="h1 max-w-md mb-8">ติดต่อมาได้เลยครับ!</h1>
             <p className="subtitle max-w-[400px]">
-              ได้หมดถ้าสดชื่น แต่ถ้าได้เงินผมนี่เป็นปลื้ม
+              ได้หมดถ้าสดชื่น แต่ถ้าได้เงินผมนี่เป็นปลื้ม!
             </p>
           </div>
           {/* illustration */}
