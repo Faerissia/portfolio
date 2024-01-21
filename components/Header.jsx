@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
+import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggler";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
