@@ -260,7 +260,7 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools I use Everyday</h3>
+                    <h3 className="h3 mb-8">Tools That Fuck me Everyday</h3>
                     {/* skills */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>

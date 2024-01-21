@@ -12,23 +12,23 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.youtube.com/channel/UCDQAhWX6wbrMrVGRLCKRbjQ",
     name: <RiYoutubeFill />,
   },
   {
-    path: "/",
+    path: "https://discordapp.com/users/im.faeris",
     name: <RiDiscordFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/Faerissia",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/FAERISSIA",
     name: <RiFacebookBoxFill />,
   },
   {
-    path: "/",
+    path: "https://www.instagram.com/faeris_z/",
     name: <RiInstagramFill />,
   },
 ];
