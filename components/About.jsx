@@ -149,11 +149,11 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      ประสปการณ์ปัด Tinder หลายเดือน ยังไม่ match กับใคร
+                      ประสบการณ์ปัด Tinder หลายเดือนแต่ยังไม่ match กับใคร
                     </h3>
                     <p className="subtitle max-w-xl max-auto xl:mx-0">
-                      พอได้เจอแล้ว เจอแต่คนแปลกๆ ไม่เป็นกิ๊กเขาไม่รู้ตัว
-                      ก็เป็นคนโดนใช้งาน
+                      พอได้เจอแล้ว เจอแต่คนแปลกๆ เจอกระเทยบ้าง
+                      ไม่เป็นกิ๊กเขาไม่รู้ตัว ก็เป็นคนโดนหลอกใช้งานบ้าง
                     </p>
                     <p className="subtitle max-w-xl max-auto xl:mx-0">
                       "ฟ้าถ้าไม่ส่งมาให้เธอมีใจ ส่งมาทำเหี้ยอะไร"
