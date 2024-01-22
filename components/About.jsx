@@ -71,6 +71,15 @@ const SkillData = [
       {
         name: "Javascript,Typescript",
       },
+      {
+        name: "MYSQL,Docker",
+      },
+      {
+        name: "C,C++",
+      },
+      {
+        name: "Figma,React",
+      },
     ],
   },
   {
