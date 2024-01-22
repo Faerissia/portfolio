@@ -66,7 +66,7 @@ const Work = () => {
         xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start"
         >
           <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8">LLLL</p>
+          <p className="subtitle mb-8">Projects ต่างๆที่เคยทำมา</p>
           <Link href="/projects">
             <Button>All project</Button>
           </Link>
