@@ -29,7 +29,7 @@ const Hero = () => {
               Hello, my name is Nontaphat Ruaklittichai
             </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              "นอนวันละ 24 ชม. มันไม่พอนะครับเชฟ"
+              "Back-End Developer ที่ทำ Front ได้นิดหน่อย"
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Link href="/contact">
@@ -55,25 +55,26 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={7}
+              endCountNum={9}
               badgeText="Months Of Experience"
             />
             {/* badge 2 */}
-            <Badge
+            {/* <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
-              icon={<RiTodoFill />}
-              endCountNum={10}
-              endCountText="k"
-              badgeText="งานที่ยังไม่เสร็จ"
-            />
-            {/* badge 3 */}
-            <Badge
-              containerStyles="absolute top-[60%] -right-[1rem]"
               icon={<Ri24HoursFill />}
               endCountNum={24}
               endCountText="hr"
               badgeText="นอนวันละ"
+            /> */}
+            {/* badge 3 */}
+            <Badge
+              containerStyles="absolute top-[60%] -right-[1rem]"
+              icon={<RiTodoFill />}
+              endCountNum={10}
+              endCountText="k"
+              badgeText="Micro Service Finish"
             />
+
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
               containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"

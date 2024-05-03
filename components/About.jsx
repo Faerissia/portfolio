@@ -60,25 +60,23 @@ const qualificationData = [
 
 const SkillData = [
   {
+    title: "framework",
+    data: [{ imgPath: "/about/vscode.svg" }, { imgPath: "/about/vscode.svg" }],
+  },
+  {
     title: "skills",
     data: [
       {
         name: "HTML,CSS",
       },
       {
-        name: "Back-end Development",
-      },
-      {
         name: "Javascript,Typescript",
       },
       {
-        name: "MYSQL,Docker",
+        name: "MYSQL",
       },
       {
         name: "C,C++",
-      },
-      {
-        name: "Figma,React",
       },
     ],
   },
@@ -158,14 +156,12 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      ประสบการณ์ปัด Tinder หลายเดือนแต่ยังไม่ match กับใคร
+                      มีประสปการณ์ทำงานด้าน Back-end โดยเฉพาะ node.js express
+                      typescript 9 เดือน
                     </h3>
                     <p className="subtitle max-w-xl max-auto xl:mx-0">
-                      พอได้เจอแล้ว เจอแต่คนแปลกๆ เจอกระเทยบ้าง
-                      ไม่เป็นกิ๊กเขาไม่รู้ตัว ก็เป็นคนโดนหลอกใช้งานบ้าง
-                    </p>
-                    <p className="subtitle max-w-xl max-auto xl:mx-0">
-                      "ฟ้าถ้าไม่ส่งมาให้เธอมีใจ ส่งมาทำเหี้ยอะไร"
+                      พร้อมที่จะเรียนรู้สิ่งใหม่ๆและสิ่งที่ท้าทาย
+                      เวลาแก้ปัญหาได้จะรู้สึกดีมาก
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -185,7 +181,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <div>Languages Skill</div>
                       <div className="border-b border-border"></div>
-                      <div>Thai, English, Japanese</div>
+                      <div>ไทย, English</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -193,7 +189,7 @@ const About = () => {
                 <TabsContent value="qualifications">
                   <div>
                     <h3 className="h3 mb-8 text-center xl:text-left">
-                      My Horrible Journey
+                      My Education
                     </h3>
                     {/* experience & education wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
@@ -269,10 +265,12 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools That Fuck me Everyday</h3>
+                    <h3 className="h3 mb-8">Additional information</h3>
                     {/* skills */}
-                    <div className="mb-16">
-                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                    <div className="mb-6">
+                      <h4 className="text-xl font-semibold mb-2">
+                        Programming language
+                      </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skills */}
                       <div>
@@ -291,6 +289,33 @@ const About = () => {
                         )}
                       </div>
                     </div>
+                    {/* framework */}
+                    <div>
+                      <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                        framework
+                      </h4>
+                      <div className="border-b border-border mb-4"></div>
+                      {/* tools list */}
+                      <div className="flex gap-x-8 justify-center xl:justify-start">
+                        {getData(SkillData, "framework").data.map(
+                          (item, index) => {
+                            const { imgPath } = item;
+                            return (
+                              <div key={index}>
+                                <Image
+                                  src={imgPath}
+                                  width={48}
+                                  height={48}
+                                  alt=""
+                                  priority
+                                />
+                              </div>
+                            );
+                          }
+                        )}
+                      </div>
+                    </div>
+
                     {/* tools */}
                     <div>
                       <h4 className="text-xl font-semibold mb-2 xl:text-left">

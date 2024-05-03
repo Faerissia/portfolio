@@ -7,7 +7,7 @@ const Cta = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h2 className="h2 max-w-xl text-center mb-8">
-            สนใจรับ Hardcore Back-end Dev หรือ little Front-end Dev ไหมครับ
+            If you like to hire me please
           </h2>
 
           <Link href="/contact">
