@@ -70,8 +70,8 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[60%] -right-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={10}
-              endCountText="k"
+              endCountNum={28}
+              endCountText=""
               badgeText="Micro Service Finish"
             />
 
