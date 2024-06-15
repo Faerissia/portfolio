@@ -14,7 +14,7 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
   {
     image: "/work/1.png",
-    category: "node js",
+    category: "node.js",
     name: "Sport Management of RMUTT Games",
     description: "เว็บแอปพลิเคชันจัดการแข่งขันกีฬาราชมงคลธัญบุรีเกมส์",
     link: "https://github.com/Faerissia/Sport-management-of-RMUTT-Games",
@@ -22,7 +22,7 @@ const projectData = [
   },
   {
     image: "/work/2.png",
-    category: "node js",
+    category: "node.js",
     name: "Mobile API RMUTT Games",
     description:
       "API สำหรับ แอปพลิเคชันจัดการแข่งขันกีฬาราชมงคลธัญบุรีเกมส์ บน Android",
@@ -39,20 +39,37 @@ const projectData = [
     github: "https://github.com/Faerissia/Mobile-Client-Rmutt-APK",
   },
   {
+    image: "/work/6.png",
+    category: "next.js",
+    name: "Employee Management Front-End",
+    description: "เว็บแอปพลิเคชันระบบจัดการพนักงาน",
+    link: "https://github.com/Faerissia/Employee-Management-Front-End",
+    github: "https://github.com/Faerissia/Employee-Management-Front-End",
+  },
+  {
+    image: "/work/7.png",
+    category: "node.js",
+    name: "Employee Management Front-End",
+    description: "API ระบบจัดการพนักงาน",
+    link: "https://github.com/Faerissia/Employee-Management-Back-End",
+    github: "https://github.com/Faerissia/Employee-Management-Back-End",
+  },
+  {
+    image: "/work/5.png",
+    category: "react.js",
+    name: "Portfolio",
+    description:
+      "เว็บไซต์ Portfolio สำหรับแสดงข้อมูลตัวเอง, ผลงาน, งานที่เคยทำ",
+    link: "https://github.com/Faerissia/portfolio",
+    github: "https://github.com/Faerissia/portfolio",
+  },
+  {
     image: "/work/4.png",
-    category: "node js",
+    category: "node.js",
     name: "Dragon's Dice Bot",
     description: "บอทช่วย DM คำนวณ Reward (งานอดิเรก)",
     link: "https://github.com/Faerissia/Dragon-s-Dice-Bot",
     github: "https://github.com/Faerissia/Dragon-s-Dice-Bot",
-  },
-  {
-    image: "/work/5.png",
-    category: "react js",
-    name: "Portfolio",
-    description: "เว็บไซต์ Portfolio สำหรับแสดงข้อมูลตัวเองหรืองานที่เคยทำ",
-    link: "https://github.com/Faerissia/portfolio",
-    github: "https://github.com/Faerissia/portfolio",
   },
 ];
 
