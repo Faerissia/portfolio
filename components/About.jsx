@@ -61,7 +61,28 @@ const qualificationData = [
 const SkillData = [
   {
     title: "framework",
-    data: [{ imgPath: "/about/vscode.svg" }, { imgPath: "/about/vscode.svg" }],
+    data: [
+      { imgPath: "/about/next-js.svg" },
+      { imgPath: "/about/react.svg" },
+      {
+        imgPath: "/about/html.svg",
+      },
+      {
+        imgPath: "/about/css.svg",
+      },
+      {
+        imgPath: "/about/javascript.svg",
+      },
+      {
+        imgPath: "/about/typescript.svg",
+      },
+      {
+        imgPath: "/about/node-js.svg",
+      },
+      {
+        imgPath: "/about/mysql.svg",
+      },
+    ],
   },
   {
     title: "skills",
@@ -87,28 +108,13 @@ const SkillData = [
         imgPath: "/about/vscode.svg",
       },
       {
-        imgPath: "/about/html.svg",
-      },
-      {
-        imgPath: "/about/css.svg",
-      },
-      {
-        imgPath: "/about/javascript.svg",
-      },
-      {
-        imgPath: "/about/typescript.svg",
-      },
-      {
-        imgPath: "/about/node-js.svg",
-      },
-      {
-        imgPath: "/about/mysql.svg",
-      },
-      {
         imgPath: "/about/docker.svg",
       },
       {
         imgPath: "/about/postman.svg",
+      },
+      {
+        imgPath: "/about/figma.svg",
       },
     ],
   },
@@ -156,12 +162,12 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      มีประสปการณ์ทำงานด้าน Back-end โดยเฉพาะ node.js express
-                      typescript 9 เดือน
+                      มีประสปการณ์ทำงานด้าน Back-End ด้วย Node.js express
+                      typescript 1 ปี และ Front-End ด้วย Next.js/React
                     </h3>
                     <p className="subtitle max-w-xl max-auto xl:mx-0">
                       พร้อมที่จะเรียนรู้สิ่งใหม่ๆและสิ่งที่ท้าทาย
-                      เวลาแก้ปัญหาได้จะรู้สึกดีมาก
+                      เวลาแก้ปัญหาได้จะรู้สึกดีมาก กำลังศึกษา Next.js และ DevOps
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -292,7 +298,7 @@ const About = () => {
                     {/* framework */}
                     <div>
                       <h4 className="text-xl font-semibold mb-2 xl:text-left">
-                        framework
+                        skills
                       </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* tools list */}

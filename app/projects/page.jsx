@@ -58,7 +58,7 @@ const projectData = [
   {
     image: "/work/7.png",
     category: "node.js",
-    name: "Employee Management Front-End",
+    name: "Employee Management Back-End",
     description: "API ระบบจัดการพนักงาน",
     link: "https://github.com/Faerissia/Employee-Management-Back-End",
     github: "https://github.com/Faerissia/Employee-Management-Back-End",
